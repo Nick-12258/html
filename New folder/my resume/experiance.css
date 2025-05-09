@@ -1,0 +1,32 @@
+*{
+    
+    padding: 10px;
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+    background-color: #fbe0e0  ;
+    
+}
+header
+{
+    background-color: #864507 !important;
+    color:  rgb(31, 24, 24);
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-radius:10px;
+}
+ .p{
+    font-size: 20px;
+    color: #562b2b;
+    
+    
+}
+.content {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+.content h1 {
+    font-size: 100px; 
+}

@@ -1,0 +1,135 @@
+nav{
+    
+    background-color: #333;
+    
+    padding: 20px;
+    height: 90%;
+    margin-top: -2px;
+    margin-bottom:-50px;
+    margin-right:80%;
+    border-radius: 5px;
+    height:120%;
+    position:absolute;
+
+    
+}
+nav a{
+    background-color: #d58c8c!important;
+    margin-right: 100px !important;
+    margin-left: 80px !important;
+    text-align: center !important; 
+    color: rgb(30, 11, 11) !important;
+    padding:10px !important;
+    border-radius: 5px!important;
+    margin-top: 0px !important;
+    margin-bottom:-10px !important
+    
+
+}
+
+
+.image-container {
+    margin-right: 150px; 
+    margin-top:90px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    
+    height: 100vh;
+    
+    /* Full viewport height */
+}
+
+.image-container img {
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 50%;
+    position: absolute; 
+    border: #77cd45 solid 5px; 
+     /* Optional: Makes the image circular */
+}
+
+
+.content {
+    display: flex; 
+    flex-direction:column; /* Ensures content stacks vertically */
+    justify-content:start; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    margin-top:-315px; /* Full viewport height */
+    margin-bottom:px; /* Removes any default margin */
+    padding:20px; /* Optional: Adds some padding */
+    text-align: top;
+    color: #ece6e6;
+    background-color: #403d3d; 
+    color: #f5f0f0;
+    border: #77cd45 5px solid; 
+    border-radius:3000px;/* Centers text inside the content */
+}
+body{
+    size:100%!important;
+    position: relative;
+    background-color: #0b0a0a;
+    
+}
+nav a:hover {
+    background-color: #efeaea !important;
+    color: #a12f2f !important;
+    text-decoration: none !important;
+    border-radius: 5px !important;
+    margin-top: 0px !important;
+    margin-bottom:-10px !important;
+    max-height:200%;
+    font-weight: 1000 !important;
+    border-color: 5px solid #77cd45 !important;
+}
+header h1{
+    color: #efeaea; 
+    text-align: center;
+    margin-top: 10px;
+    padding: 50px;
+    border: #d5cfcf 5px solid;
+}
+@media screen and (max-width: 1080px) and (max-height: 2400px) {
+
+
+        /* Adjust font size for better readability */
+    
+         /* Ensure background color is consistent */
+    
+
+    .image-container img {
+        max-width: 40%; /* Scale images to fit the screen */
+        max-height: auto; /* Maintain aspect ratio */
+        margin : 20px auto;
+        margin-top: 580px;
+        mar /* Center images */
+        display: block;
+    }
+
+    .content {
+        font-size: 10px; /* Adjust font size for content */
+        padding: 10px; /* Add padding for better spacing */
+        margin: 0 auto; /* Center content */
+        text-align:center; /* Center-align text */
+    }
+
+    nav {
+        width: 100%; /* Make navigation take full width */
+        margin: 10px; ;
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 19px; /* Adjust font size for links */
+        padding: 10px;
+        margin:10px;
+        margin-right:50%;
+        display: block; /* Stack links vertically */
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 30px; /* Adjust header font size */
+        padding: 20px;
+    }
+}

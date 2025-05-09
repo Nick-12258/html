@@ -1,0 +1,27 @@
+ .img {
+    width: 30%!important;
+    height: 30%!important;
+    size: 50%;
+}
+.image-container {
+    display: flex;
+    
+    flex-direction:column;
+    margin-top: 10px;
+    background-color: #500e0e !important;
+    
+    padding:250px;
+}
+header
+{
+    background-color: #500e0e !important;
+    color: rgb(239, 239, 239);
+    padding: 50px;
+    text-align: center;
+    font-size: 50px !important;
+    border-radius:10px;
+}
+.h1{
+    font-size: 50px !important;
+    font-family: 'Courier New', Courier, monospace;
+}

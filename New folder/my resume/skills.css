@@ -1,0 +1,23 @@
+*{
+    
+    padding: 10px;
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+}
+header
+{
+    background-color: #500e0e !important;
+    color: rgb(239, 239, 239);
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-radius:10px;
+}
+ul
+{
+    font-size: 20px;
+    
+
+
+}
