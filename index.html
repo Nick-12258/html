@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #box1 {
+      background-color: brown;
+        width: 100px;
+        height: 100px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+      
+  </style>
+    
+  <body>
+    <div>sudheer</div>
+    <script>
+     //boxdiv.id="box1"
+      // map is used for modifying the array elements, for each
+      const boxdiv = document.createElement("div");
+     /*boxdiv.style.backgroundColor="brown"
+      boxdiv.style.width="100px"
+      boxdiv.style.height='100px'
+      boxdiv.style.color='white'
+      boxdiv.style.display='flex'
+      boxdiv.style.justifyContent='center'
+      boxdiv.style.alignItems='center'*/
+      boxdiv.id="box1"
+
+      console.log(boxdiv, "div");
+      const boxdspan = document.createElement("span");
+      console.log(boxdspan, "span");
+      boxdspan.textContent = "box1";
+      boxdiv.appendChild(boxdspan);
+      document.body.append(boxdiv);
+      boxdiv.innerHTML="<span>booo</span>"
+      
+    </script>
+  </body>
+</html>
