@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <p id="newPTag">
+        this is p tag
+
+    </p>
+
+
+    <div class="class1">
+        class tag
+    </div>
+
+     <div class="class1">
+        class tag 2
+    </div>
+
+    <script>
+
+        // id, classname, Tagname
+
+        const pTag = document.getElementById("newPTag")
+
+        const classEle = document.getElementsByClassName('class1')
+
+        const tagEle = document.getElementsByTagName('div')
+
+        console.log(tagEle,'tag name')
+
+        console.log(classEle[1],"classELe")
+
+        console.log(pTag,"ptag")
+
+    </script>
+</body>
+</html>

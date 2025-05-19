@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #ttt {
+      color: #121217;
+      background-color: rgb(114, 114, 135);
+      width: 100px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid black;
+      border-radius: 10px;
+      margin: 300px;
+      margin-left: 600px;
+      padding: 100px;
+      font-size: 20px;
+    }
+  </style>
+  <body>
+    <script>
+      const sudheer = document.createElement("div");
+      //sudheer.textcontent  = "manasa";
+      console.log(sudheer, "div");
+      const span1 = document.createElement("span");
+      console.log(span1, "span");
+      span1.textContent = "mahi";
+      sudheer.append(span1);
+      document.body.append(sudheer);
+      sudheer.id = "ttt";
+
+      // Add hover effect using JavaScript
+      //document.getElementById("ttt").addEventListener("mousedown", function() {
+      // this.style.backgroundColor = "green";
+      //this.style.color = "white";
+      //});
+      document.getElementById("ttt").addEventListener("mouseout", function () {
+        this.style.backgroundColor = "yellow";
+        this.style.color = "red";
+      });
+      document
+        .getElementById("ttt")
+        .addEventListener("mouseover", changeColorIfGreen);
+
+      function changeColorIfGreen() {
+        sudheer.style.backgroundColor = "green";
+      }
+      //if (sudheer.style.backgroundColor === "white") {
+      //   sudheer.style.color = "black";
+      //} else {
+      //sudheer.style.color = "black";
+      //}
+    </script>
+  </body>
+</html>
