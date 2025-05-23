@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="data:,">
+  </head>
+  <body>
+    <script>
+      var salaries = [5000, 85, 545];
+      salaries.forEach((salary, index) => {
+        console.log(salaries, index);
+        const decreament = salary * 0.1;
+        const newsalary= salary - decreament;
+        console.log("newsalary", newsalary,index);
+      });
+    </script>
+  </body>
+</html>
